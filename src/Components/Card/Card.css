@@ -1,0 +1,222 @@
+@media only screen and (min-width: 900px) {
+  .main_card_container {
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+    border-radius: 20px;
+    transform: scale(1);
+  }
+  .name_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    height: fit-content;
+    height: 54px;
+  }
+  .name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 15px;
+  }
+  .date {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 15px;
+  }
+  .enrolled_courses {
+    color: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0px;
+    height: 91px;
+  }
+  .no_of_courses_enrolled {
+    height: 40px;
+  }
+  .no_of_courses_enrolled p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .enrolled_courses_name {
+    width: 90%;
+    overflow-y: auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .enrolled_courses_name::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .enrolled_courses_name::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .enrolled_courses_name::-webkit-scrollbar-thumb {
+    background: #eeaeae;
+    border-radius: 2.5px;
+  }
+  .enrolled_courses_name p {
+    width: fit-content;
+    height: 21px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px;
+  }
+  .referral_amount {
+    margin-top: 15px;
+    width: fit-content;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    column-gap: 0px;
+  }
+  .referral_amount p {
+    margin: 0px 10px;
+  }
+  .amount_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .amount {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .main_card_container {
+    width: 358px;
+    height: 228px;
+    background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+    border-radius: 20px;
+    transform: scale(.8);
+  }
+  .name_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+    height: fit-content;
+    height: 54px;
+  }
+  .name {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 15px;
+  }
+  .date {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 15px;
+  }
+  .enrolled_courses {
+    color: #ffffff;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 15px;
+    margin: 0px;
+    height: 91px;
+  }
+  .no_of_courses_enrolled {
+    height: 40px;
+  }
+  .no_of_courses_enrolled p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .enrolled_courses_name {
+    width: 90%;
+    overflow-y: auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+  }
+  .enrolled_courses_name::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .enrolled_courses_name::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+  .enrolled_courses_name::-webkit-scrollbar-thumb {
+    background: #eeaeae;
+    border-radius: 2.5px;
+  }
+  .enrolled_courses_name p {
+    width: fit-content;
+    height: 21px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px;
+  }
+  .referral_amount {
+    margin-top: 15px;
+    width: fit-content;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    column-gap: 0px;
+  }
+  .referral_amount p {
+    margin: 0px 10px;
+  }
+  .amount_text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  .amount {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+  }
+}
